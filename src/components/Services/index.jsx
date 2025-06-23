@@ -10,7 +10,7 @@ const Services = () => {
   const services = [
     {
       img: <ServiceIMG1 />,
-      title: "ИНДИВИДУАЛЬАЯ СБОРКА",
+      title: "ИНДИВИДУАЛЬНАЯ СБОРКА",
       text: (
         <div className={styles.serviceDescription}>
           <div className={styles.serviceDescriptionLine}>Высокая мощность или компактность?</div>

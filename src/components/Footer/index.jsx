@@ -1,7 +1,6 @@
 import styles from "./Footer.module.scss";
 import logo from '../../images/svg/logo.svg'
 import policy from '../../files/policy.pdf';
-import offerta from '../../files/offerta.pdf'
 import Button from "../Button";
 import { goToLink } from "../../helpers/helpers";
 
@@ -18,7 +17,7 @@ const Footer = () => {
         Связь с менеджером
       </Button>
       <div className={styles.footerPhone}>
-        с 10:00 - 22:00 пн-пт
+        С 11:00 - 21:00 ЕЖЕДНЕВНО
       </div>
       </div>
       <div className={styles.footerColumn}>
@@ -29,7 +28,6 @@ const Footer = () => {
           г. Москва
         </p>
         <a className={styles.footerDocument} download href={policy}>Политика конфиденциальности</a>
-        <a className={styles.footerDocument} download href={offerta}>Договор оферта</a>
       </div>
     </div>
   );
