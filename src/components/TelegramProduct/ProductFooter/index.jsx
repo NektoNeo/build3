@@ -27,7 +27,7 @@ export const ProductFooter = () => {
       <div className={styles.footerDelivery}>
         <div className={styles.footerDeliveryHeader}>
           <div className={styles.footerDeliveryHeaderText}>
-            Доставляем по всем регионам РФи странам ЕАЭС
+            Доставляем по всем регионам РФ и странам ЕАЭС
           </div>
           <DeliverySVG className={styles.footerDeliveryHeaderIcon} />
         </div>
